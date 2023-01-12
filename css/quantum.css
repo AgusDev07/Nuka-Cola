@@ -1,0 +1,109 @@
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+
+.projects-body{
+    background-color: var(--nuka-quantum-color);
+    color: var(--text-color-inverse);
+    
+}
+
+.img-container{
+    display: flex;
+}
+
+.quantum-img-section{
+    position: relative;
+    padding: 20px;
+}
+
+.quantum-img{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 20%;
+}
+
+.projects-title{
+    text-align: center;
+    font-family: 'Lobster';
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+    color: var(--secondary-color);
+}
+
+.quantum-details{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.project-name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-name span{
+    font-family: 'Lobster';
+}
+
+.project-name span:hover{
+    filter: drop-shadow(0 0 14px var(--text-color-inverse));
+    cursor: pointer;
+}
+
+.projects-grid{
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.wave-quantum{
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+
+.wave-quantum-bottom{
+    width: 100%;
+    transform: scaleY(-1);
+    position: relative;
+    top: -2px;
+}
+
+@media(min-width:950px){
+    .projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+
+.projects-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+}
+
+
+
+.projects-grid{
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+
+}
+
+
