@@ -47,11 +47,13 @@
     border: none;
     height: 30px;
     padding: 5px 10px;
+    background-color: var(--text-color-inverse);
 }
 
 .contact-form textarea{
     height: auto;
     resize: vertical;
+    background-color: var(--text-color-inverse);
 }
 
 .contact-form-submit{
