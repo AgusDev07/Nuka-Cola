@@ -1,11 +1,13 @@
 
-.projects{
+.quantum-container{
     display: flex;
     flex-direction: column;
     text-align: center;
+    
+    
 }
 
-.projects-body{
+.quantum-body{
     background-color: var(--nuka-quantum-color);
     color: var(--text-color-inverse);
     
@@ -26,7 +28,7 @@
     border-radius: 20%;
 }
 
-.projects-title{
+.quantum-title{
     text-align: center;
     font-family: 'Lobster';
     font-weight: bold;
@@ -77,15 +79,15 @@
 }
 
 @media(min-width:950px){
-    .projects{
+    .quantum-container{
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    padding: 25px;
 }
 
 
-.projects-title{
+.quantum-title{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -94,7 +96,7 @@
 
 
 
-.projects-grid{
+.quantum-grid{
     padding: 20px;
     max-width: 500px;
     margin: 0 auto;
