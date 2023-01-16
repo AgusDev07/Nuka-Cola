@@ -1,0 +1,144 @@
+.contact{
+    background-color: var(--primary-color);
+    color: var(--text-color-inverse);
+    font-weight: 18px;
+    border-radius: 14px;
+    padding: 25px;
+
+    display: grid;
+    gap: 25px;
+}
+
+.contact p,
+.contact h2,
+.contact ul{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-details,
+.contact-form{
+    display: grid;
+    gap: 20px;
+}
+
+.contact-details-group,
+.contact-form-group{
+    display: grid;
+    gap: 3px;
+}
+
+.contact-label{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.contact-form input,
+.contact-form textarea{
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.contact-form textarea{
+    height: auto;
+    resize: vertical;
+}
+
+.contact-form-submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background-color: var(--text-color-inverse);
+    border: 1px solid var(--theme-color);
+    cursor: pointer;
+}
+
+.contact-form-submit:hover{
+    box-shadow: 0 0 14px var(--secondary-color);
+}
+
+
+.social .social-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+
+.social-list img{
+    height: 25px;
+}
+
+.social-list img:hover{
+    filter: drop-shadow(0 0 14px var(--text-color-inverse));
+}
+
+@media(min-width:950px){
+    .contact{
+        font-weight: 20px;
+        max-width: 980px;
+        padding: 70px;
+        margin: 0 auto;
+
+        box-sizing: border-box;
+    }
+    
+    
+    
+    .contact-title{
+        font-size: 35px;
+        text-align: left;
+        
+    }
+    
+    .social .social-list{
+        justify-content: flex-start;
+    
+    }
+    
+    
+    .social-list img{
+        height: 35px;
+    }
+
+    .contact-title{
+        grid-area: title;
+
+    }
+
+    .social{
+        grid-area: social;
+    }
+
+    .contact-form{
+        grid-area: form;
+    }
+
+    .contact-details{
+        grid-area: details;
+    }
+
+    .contact{
+        grid: "title form" auto
+              "details form" 1fr
+              "social form" auto / 
+              1fr      1fr  ;
+        align-items: start;
+    }
+    
+}

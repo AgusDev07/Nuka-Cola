@@ -8,10 +8,12 @@
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <script defer src="/js/app.js"></script>
     <title>Nuka Cola | 2044</title>
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/whatIs.css">
     <link rel="stylesheet" href="css/quantum.css">
+    <link rel="stylesheet" href="css/victory.css">
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
 </head>
 
@@ -40,7 +42,7 @@
     <div class="horizontal-padding vertical-padding">
         <section class="profile" id="What-is-Nuka-Cola?">
             <div class="profile-info">
-                <h1 class="profile-title">¿Qué es <br /><span>Nuka-Cola?</span></h1>
+                <h1 class="profile-title"><span>¿</span>Qué es <br /><span>Nuka-Cola?</span></h1>
                 <p class="profile-details">
                     Nuka-Cola es una bebida gaseosa con sabor a cola que ha ganado popularidad en todo el mundo gracias
                     a su sabor único y refrescante.
@@ -75,16 +77,90 @@
                 </p>
                 <div class="img-container">
                     <span class="quantum-img-section">
-                        <img class="quantum-img" src="/fotos/nuka-quantum2.jpg" alt="nuka-cola">
+                        <img class="quantum-img" src="/fotos/nuka-quantum2.jpg" alt="nuka-cola-quantum">
                     </span>
                     <span class="quantum-img-section">
-                        <img class="quantum-img" src="/fotos/nuka-quantum.jpg" alt="nuka-cola">
+                        <img class="quantum-img" src="/fotos/nuka-quantum.jpg" alt="nuka-cola-quantum">
                     </span>
                 </div>
             </div>
         </div>
         <img src="/waves/wave-quantum.svg" class="wave-quantum-bottom" alt="wave-quantum-bottom">
     </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact">
+            <h2 class="contact-title">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-gruop">
+                    <p class="contact-label">Dirección:</p>
+                    <p class="contact-text">Carlos Crocker 2567. Montevideo, Uruguay</p>
+                </div>
+                <div class="contact-details-gruop">
+                    <p class="contact-label">Email:</p>
+                    <p class="contact-text">machadoagustin07@gmail.com</p>
+                </div>
+                <div class="contact-details-gruop">
+                    <p class="contact-label">Github:</p>
+                    <p class="contact-text">AgusDev07</p>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/machadoagustin07@gmail.com" method="POST" class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+                <div class="contact-form-group">
+                    <label for="name">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+                <div class="contact-form-group">
+                    <label for="name">Mensaje</label>
+                    <textarea required rows="6" name="message" id="message"></textarea>
+                </div>
+
+                <button type="submit" class="contact-form-submit">Enviar</button>
+
+                <input type="hidden" name="_next" value="https://agustin-machado-cv.netlify.app">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://github.com/AgusDev07" target="_blank"><img src="./svg/github.svg"
+                                alt="Github profile"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/agustin-peña-machado-11118b233/" target="_blank"><img
+                                src="./svg/linkedin.svg" alt="LinkedIn profile"> </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+
+    <section class="nuka-victory-container" id="Nuka-Victory">
+        <img src="/waves/orange-wave.svg" class="wave-quantum" alt="wave-quantum">
+        <div class="nuka-victory-body">
+            <h2 class="projects-title">Nuka-Victory</h2>
+            <div class="projects-grid">
+                <p class="quantum-details">
+                    La Nuka-Cola Victory es una edición especial de la famosa bebida Nuka-Cola. Es una mezcla única de
+                    Nuka-Cola original con un toque de sabor a naranja, y está embotellada en una elegante botella naranja y
+                    dorada. Se dice que tiene un sabor increíblemente delicioso y refrescante, además de ser rica en
+                    vitamina Nuka, lo que la convierte en una bebida energizante perfecta para los aventureros. ¿Te
+                    gustaría probar una?
+                </p>
+                <div class="img-container">
+                    <span class="quantum-img-section">
+                        <img class="quantum-img" src="/fotos/nuka-victory.jpg" alt="nuka-cola-victory">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <img src="/waves/orange-wave.svg" class="wave-quantum-bottom" alt="wave-quantum-bottom">
+    </section>
+
 </body>
 
 </html>

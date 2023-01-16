@@ -1,13 +1,13 @@
 
-.projects{
+.nuka-victory-container{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.projects-body{
-    background-color: var(--nuka-quantum-color);
-    color: var(--text-color-inverse);
+.nuka-victory-body{
+    background-color:var(--nuka-victory-color);
+    color:var(--text-color-inverse);
     
 }
 
