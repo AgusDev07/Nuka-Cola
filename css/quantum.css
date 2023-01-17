@@ -15,6 +15,7 @@
 
 .img-container{
     display: flex;
+    justify-content: space-around;
 }
 
 .quantum-img-section{
